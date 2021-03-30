@@ -24,22 +24,27 @@ body{
 /* HEADER JAVIER DE MENDOZA */
 .text-xxxl {
     font-size: 10rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 /* TITULO SECCIÓN */
 .text-xxl {
     font-size: 6rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .text-xl {
     font-size: 2.5rem;
 }
 
-
-
-footer{
-    background-color: #0F0E04;
+/* BTN MENU */
+.btn{
+    transition: all 0.5s ease;
 }
+.btn:hover{
+    transform: translateY(-8px)
+}
+
 
 .container{
     display: flex;
@@ -116,6 +121,7 @@ footer{
 
 footer{
     margin-top: 20rem;
+    background-color: #0F0E04;
 }
 
 .footer{
@@ -161,7 +167,6 @@ footer{
 
 .footer__cardTaller h3,
 .footer__cardContact h3{
-    letter-spacing: 1rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
 }
@@ -183,3 +188,4 @@ footer{
     font-size: 3rem;
     margin-right: 4rem;
 }
+

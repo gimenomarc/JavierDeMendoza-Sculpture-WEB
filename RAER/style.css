@@ -3,7 +3,6 @@
 :root{
     font-size: 62.5%;
     color: white;
-    font-family: 'Bebas Neue', cursive;
     letter-spacing: 2.5px;
 }
 
@@ -12,22 +11,49 @@ html {
 }
 
 * {
-    background-color: black;
     margin: 0;
     padding: 0;
 }
 
-.container__head-title h1{
-    font-size: 10rem;    
+body{
+    background-color: black;
 }
+
+/* UTILITIES */
+
+/* HEADER JAVIER DE MENDOZA */
+.text-xxxl {
+    font-size: 10rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* TITULO SECCIÓN */
+.text-xxl {
+    font-size: 6rem;
+}
+
+.text-xl {
+    font-size: 2.5rem;
+}
+
+/* BTN MENU */
+.btn{
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    transform: translateY(-8px)
+}
+
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 3rem;
-    margin: 1rem;
+}
 
+.container__head-title h1{   
+    font-family: 'Bebas Neue', cursive;
 }
 
 .container__head-menu{
@@ -53,20 +79,19 @@ html {
 .container__head-menu div a {
     text-decoration: none;
     color: white;
+    transition: all 0.4s ease;
 }
-
-
 
 
 footer{
     margin-top: 20rem;
+    background-color: #0F0E04;
 }
 
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 3rem;
     font-family: "Open Sans", sans-serif;
     padding: 10rem 2rem;
 }
@@ -75,24 +100,12 @@ footer{
     padding: 1.2rem;
 }
 
-.footer div h3{
-    font-family: 'Bebas Neue', cursive;
-}
-
 .footer div h4 {
     font-size: 2rem;
 }
 
-.footer__links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0 3rem;
-}
-
 .footer__social{
-    margin-top: 3rem;
-    margin-bottom: 20rem;
+    padding: 5rem 0; 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -109,9 +122,35 @@ footer{
     cursor: pointer;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
 }
 
-.footer__page h4{
-    margin-right: 3rem;
-    color: yellow;    
+.footer__cardTaller {
+    font-family: "Open Sans", sans-serif;
 }
+
+.footer__cardTaller h3,
+.footer__cardContact h3{
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.footer__cardContact{
+    text-align: end;
+}
+
+.footer__page-link{
+    margin-top: 2rem;
+}
+
+.footer__page-link a{
+    
+    color: white;
+}
+
+.footer__page-link a h4{
+    font-size: 3rem;
+    margin-right: 4rem;
+}
+
