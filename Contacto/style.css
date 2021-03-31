@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Roboto&display=swap');
+
 
 :root{
     font-size: 62.5%;
@@ -29,6 +31,7 @@ body{
 .text-xxl {
     font-size: 6rem;
     font-family: 'Bebas Neue', cursive;
+    color: white;
 }
 
 .text-xl {
@@ -81,8 +84,22 @@ header{
     transition: all 0.4s ease;
 }
 
+/*MAIN*/
+.card__title h3{
+    margin-top: 25rem;
+    text-align: center;
+}
 
+.cards__text div{
+    padding: 1rem;
+}
 
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+/*FOOTER*/
 footer{
     margin-top: 20rem;
     background-color: #0F0E04;
@@ -114,7 +131,7 @@ footer{
 .footer__social-email,
 .footer__social-fb,
 .footer__social-instagram{
-    width: 5rem;
+    width: 10rem;
     cursor: pointer;
 }
 

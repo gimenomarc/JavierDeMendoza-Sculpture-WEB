@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Roboto&display=swap');
 :root{
     font-size: 62.5%;
     color: white;
@@ -34,7 +35,7 @@ body{
 
 .text-xl {
     font-size: 2.2rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* BTN MENU */
@@ -90,7 +91,6 @@ main{
 }
 
 .card{
-    padding: 0 20rem;
     text-align: center;
 }
 
@@ -99,6 +99,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 42rem;
 }
 
 .card__inicio-text{
