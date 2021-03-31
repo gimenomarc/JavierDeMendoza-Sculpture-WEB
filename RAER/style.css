@@ -3,7 +3,6 @@
 :root{
     font-size: 62.5%;
     color: white;
-    letter-spacing: 2.5px;
 }
 
 html {
@@ -20,16 +19,16 @@ body{
 }
 
 /* UTILITIES */
-
 /* HEADER JAVIER DE MENDOZA */
 .text-xxxl {
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: 'Bebas Neue', cursive;
 }
 
 /* TITULO SECCIÓN */
 .text-xxl {
     font-size: 6rem;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .text-xl {
@@ -41,38 +40,38 @@ body{
     transition: all 0.5s ease;
 }
 .btn:hover{
-    transform: translateY(-8px)
+    transform: translateY(-8px);
 }
 
+header{
+    background-color: #0F0E04;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
-}
-
-.container__head-title h1{   
-    font-family: 'Bebas Neue', cursive;
+    padding: 2.5rem;
 }
 
 .container__head-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
 }
 
 .container__head-menu div {
-    padding: 0 2rem;
-    font-size: 1.5rem;
+    padding: 0 3rem;
+    font-size: 1.4rem;
 }
 
 .container__head-menu div h2 {
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    margin-top: 5rem;
+    padding: 4rem 0;
 }
 
 
@@ -82,6 +81,42 @@ body{
     transition: all 0.4s ease;
 }
 
+
+
+/*MAIN*/
+main{
+    margin-top: 30rem;
+}
+
+.title{
+    text-align: center;
+}
+
+.card {
+    padding: 3rem 30rem;
+    text-align: center;
+}
+    
+.card__parraf,
+.card__title{
+    margin-top: 5rem;
+}
+
+.card__title{
+    margin-top: 20rem;
+}
+
+.card__parraf-card{
+    margin-top: 6em;
+    padding: 0 30rem;
+}
+
+.card__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10rem; 
+}
 
 footer{
     margin-top: 20rem;

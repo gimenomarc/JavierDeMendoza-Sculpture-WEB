@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 :root{
     font-size: 62.5%;
     color: white;
-    letter-spacing: 2.5px;
 }
 
 html {
@@ -20,10 +20,9 @@ body{
 }
 
 /* UTILITIES */
-
 /* HEADER JAVIER DE MENDOZA */
 .text-xxxl {
-    font-size: 10rem;
+    font-size: 8rem;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -34,7 +33,8 @@ body{
 }
 
 .text-xl {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    font-family: 'Libre Baskerville', serif;
 }
 
 /* BTN MENU */
@@ -42,38 +42,38 @@ body{
     transition: all 0.5s ease;
 }
 .btn:hover{
-    transform: translateY(-8px)
+    transform: translateY(-8px);
 }
 
+header{
+    background-color: #0F0E04;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
-}
-
-.container__head-title h1{   
-    font-family: 'Bebas Neue', cursive;
+    padding: 2.5rem;
 }
 
 .container__head-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
 }
 
 .container__head-menu div {
-    padding: 0 2rem;
-    font-size: 1.5rem;
+    padding: 0 3rem;
+    font-size: 1.4rem;
 }
 
 .container__head-menu div h2 {
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    margin-top: 5rem;
+    padding: 4rem 0;
 }
 
 
@@ -83,42 +83,40 @@ body{
     transition: all 0.4s ease;
 }
 
-.inicio__img{
-    width: 100%;
+
+/*MAIN*/
+main{
+    margin-top: 30rem;
 }
 
-.inicio__img-img{
-    width: 60%;
-    float: right;
-    margin-right: 10rem;
+.card{
+    padding: 0 20rem;
+    text-align: center;
 }
 
-.inicio {
+.card__inicio{
+    margin-top: 8rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 220rem;
+    justify-content: center;
 }
 
-.inicio__text {
-    width: 100%;
+.card__inicio-text{
+    max-width: 100rem;
+    text-align: left;
 }
 
-.inicio__text p {
-    padding: 2rem 0;
-    font-family: "Open Sans", sans-serif;
+.card__inicio-text div{
+    margin-top: 4rem;
 }
 
-.title {
-    text-align: center;
-    margin-top: 6rem;
-    margin-bottom: 4rem;
+.card__inicio div img{
+    max-width: 100%;
+    margin-top: 9rem;
 }
 
-.title h3 {
-    font-family: 'Bebas Neue', cursive;
-}
 
+/*FOOTER*/
 footer{
     margin-top: 20rem;
     background-color: #0F0E04;
@@ -158,12 +156,8 @@ footer{
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    max-width: 100%;
 }
 
-.footer__cardTaller {
-    font-family: "Open Sans", sans-serif;
-}
 
 .footer__cardTaller h3,
 .footer__cardContact h3{
@@ -180,12 +174,8 @@ footer{
 }
 
 .footer__page-link a{
-    
     color: white;
 }
 
-.footer__page-link a h4{
-    font-size: 3rem;
-    margin-right: 4rem;
-}
+
 
