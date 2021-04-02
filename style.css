@@ -99,7 +99,6 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 42rem;
 }
 
 .card__inicio-text{
@@ -178,14 +177,14 @@ footer{
     color: white;
 }
 
-@media screen and (max-width: 700px){
-
-    :root{
-        font-size: 55%;
-    }
+@media screen and (max-width: 900px){
 
     header{
         position: relative;
+    }
+
+    .card{
+        padding: 0 4rem;
     }
 
     .container{
@@ -199,6 +198,7 @@ footer{
     .container__head-menu{
         display: flex;
         flex-direction: column;
+        padding-top: 5rem;
     }
 
     .card__inicio{
@@ -208,6 +208,7 @@ footer{
 
     .card__inicio-text{
         margin-top: 5rem;
+        text-align: center;
     }
 
     .footer{
@@ -216,7 +217,13 @@ footer{
         justify-content: space-around;
     }
 
-
+    .footer__cardContact,
+    .footer__cardTaller{
+        text-align: center;
+        padding: 10rem 10rem;
+    }
+    .footer__page{
+        display: flex;    
+        justify-content: center;  
+    }
 }
-
-

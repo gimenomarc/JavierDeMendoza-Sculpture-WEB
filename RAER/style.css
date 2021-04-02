@@ -168,7 +168,6 @@ footer{
 
 .footer__cardTaller h3,
 .footer__cardContact h3{
-    letter-spacing: 1rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
 }
