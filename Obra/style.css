@@ -122,7 +122,7 @@ header{
 }
 
 .card_img-img{
-   width: 40rem;
+   width: 30rem;
 }
 
 
@@ -197,3 +197,61 @@ footer{
     margin-right: 4rem;
 }
 
+@media screen and (max-width: 900px){
+
+ 
+
+    header{
+        position: relative;
+    }
+
+    .card{
+        padding: 0 4rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .container__head-menu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card__img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card__text{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer__cardContact,
+    .footer__cardTaller{
+        text-align: center;
+        padding: 10rem 0;
+    }
+    .footer__page{
+        display: flex;    
+        justify-content: center;  
+    }
+}

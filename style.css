@@ -14,6 +14,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -177,6 +178,7 @@ footer{
     color: white;
 }
 
+/* RESPONSIVE */
 @media screen and (max-width: 900px){
 
     header{
@@ -220,7 +222,7 @@ footer{
     .footer__cardContact,
     .footer__cardTaller{
         text-align: center;
-        padding: 10rem 10rem;
+        padding: 10rem 0;
     }
     .footer__page{
         display: flex;    

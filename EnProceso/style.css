@@ -89,17 +89,18 @@ header{
 .title{
     text-align: center;
     margin-top: 30rem;
+    padding: 0 3rem;
 }
 
 .presentation{
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 5rem;
     text-align: center;
 }
 
 .card{
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -109,14 +110,18 @@ header{
 }
 
 .card__content-text{
-    width: 30%;
-    padding: 10rem 5rem;
+    max-width: 30%;
 }
 
 .card__content{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.card__content div{
+    padding: 3rem;
 }
 
 /*FOOTER*/
@@ -190,3 +195,63 @@ footer{
     margin-right: 4rem;
 }
 
+/* RESPONSIVE */
+@media screen and (max-width: 900px){
+
+    header{
+        position: relative;
+    }
+
+    .card{
+        padding: 0 4rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .container__head-menu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+
+    .card__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card__content-text{
+        max-width: none;
+        text-align: center;
+    }
+
+    .card__content{
+        width: 100%;
+        align-items: center;
+    }
+
+    .card__content-img img{
+        max-width: 100%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer__cardContact,
+    .footer__cardTaller{
+        text-align: center;
+        padding: 10rem 0;
+    }
+    .footer__page{
+        display: flex;    
+        justify-content: center;  
+    }
+}

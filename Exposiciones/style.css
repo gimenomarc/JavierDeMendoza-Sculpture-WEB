@@ -156,3 +156,54 @@ footer{
     margin-right: 4rem;
 }
 
+/* RESPONSIVE */
+@media screen and (max-width: 900px){
+
+    header{
+        position: relative;
+    }
+
+    .card{
+        padding: 0 4rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .container__head-menu{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+    }
+
+    .card__parraf-card{
+        margin-top: 6em;
+        padding: 0rem;
+    }
+
+    .card__img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer__cardContact,
+    .footer__cardTaller{
+        text-align: center;
+        padding: 10rem 0;
+    }
+    .footer__page{
+        display: flex;    
+        justify-content: center;  
+    }
+}
